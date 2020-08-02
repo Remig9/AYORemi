@@ -150,11 +150,13 @@ export const LiveButton = ({...props}: ButtonProps) => {
         <TextWrap color="#FFFFFF" fontSize={10}>
           {props.text}
         </TextWrap>
-        <ImageWrap
-          source={require('../../assets/img/plus.png')}
-          width={4}
-          height={2}
-        />
+        <Container marginLeft={1}>
+          <ImageWrap
+            source={require('../../assets/img/plus.png')}
+            width={3}
+            height={1.5}
+          />
+        </Container>
       </Container>
     </TouchableOpacity>
   );
